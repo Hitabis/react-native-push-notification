@@ -16,7 +16,7 @@ public class ReactNativePushNotificationPackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         return Collections.<NativeModule>singletonList(new RNPushNotification(reactContext));
     }
-    
+
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
